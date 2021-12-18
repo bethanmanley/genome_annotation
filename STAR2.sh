@@ -17,8 +17,8 @@ STAR=/mnt/home1/miska/bm502/Apps/STAR-2.7.6a/bin/Linux_x86_64_static/STAR
 # Index genome 
 
 $STAR \
---genomeDir $GENOME_DIR
---genomeFastaFiles $GENOME
+--genomeDir $GENOME_DIR \
+--genomeFastaFiles $GENOME \
 --runMode genomeGenerate \
 --genomeSAindexNbases 12 
 
