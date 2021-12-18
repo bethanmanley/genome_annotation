@@ -18,12 +18,12 @@ CORES=$5
 
 mkdir -p $WD
 
-miniconda3/bin/braker.pl /
---workingdir=$WD /
---genome=$GENOME /
---GENEMARK_PATH=/mnt/home1/miska/bm502/Apps/gmes_linux_64 /
---fungus /
---softmasking /
---gff3 /
---bam=$BAM
+miniconda3/bin/braker.pl \
+--workingdir=$WD \
+--genome=$GENOME \
+--GENEMARK_PATH=/mnt/home1/miska/bm502/Apps/gmes_linux_64 \
+--fungus \
+--softmasking \
+--gff3 \
+--bam=$BAM \
 --cores=$CORES
