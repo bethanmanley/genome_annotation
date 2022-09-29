@@ -1,7 +1,7 @@
 #SBATCH -J star2
 #SBATCH -n 5
-#SBATCH -o ONT_Transcriptome_G5Riirr/Illumina_RNA_STAR/softmasked/star.o
-#SBATCH -e ONT_Transcriptome_G5Riirr/Illumina_RNA_STAR/softmasked/star.e
+#SBATCH -o Illumina_RNA_STAR/softmasked/star.o
+#SBATCH -e Illumina_RNA_STAR/softmasked/star.e
 #SBATCH -p IACT
 #SBATCH --mail-type=ALL
 #SBATCH --mail-user=bm502@cam.ac.uk
