@@ -1,6 +1,7 @@
-# gene_annotation
-Annotation using BRAKER2 for Rhizophagus irregularis
+# genome_annotation
+Series of scripts associated with the genome annotation of Rhizophagus irregularis. 
 
+# Annotation using BRAKER2 for Rhizophagus irregularis
 # Using BRAKER2 from conda. Create in this order
 
 conda create --name braker2 augustus braker2
