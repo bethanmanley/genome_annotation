@@ -1,8 +1,8 @@
 #!/bin/bash
 #SBATCH -J braker2
 #SBATCH -n 3
-#SBATCH -o Guppy_5_Riirr/shasta0.5/braker2/braker.o
-#SBATCH -e Guppy_5_Riirr/shasta0.5/braker2/braker.e
+#SBATCH -o Guppy_5_Riirr/shasta5/braker2/braker.o
+#SBATCH -e Guppy_5_Riirr/shasta5/braker2/braker.e
 #SBATCH -p 1804
 #SBATCH --mail-type=ALL
 #SBATCH --mail-user=bm502@cam.ac.uk
